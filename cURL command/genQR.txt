@@ -1,0 +1,7 @@
+curl -X POST "https://api-sandbox.partners.scb/partners/sandbox/v1/payment/qrcode/create" ^
+  -H "Content-Type: application/json" ^
+  -H "accept-language: EN" ^
+  -H "authorization: Bearer [your Authorization]" ^
+  -H "requestUId: 1b01dff2-b3a3-4567-adde-cd9dd73c8b6d" ^
+  -H "resourceOwnerId: [your applicationKey]" ^
+  -d "{\"qrType\": \"PP\", \"ppType\": \"BILLERID\", \"ppId\": \"068384100982686\", \"amount\": \"1.00\", \"ref1\": \"REFERENCE1\", \"ref2\": \"REFERENCE2\", \"ref3\": \"SCB\"}"

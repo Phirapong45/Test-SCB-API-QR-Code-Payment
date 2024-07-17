@@ -1,0 +1,5 @@
+use in Command Promt
+1.use getToken first 
+2.then use genQR
+
+find authorization from fusion SCB_API_KEY and SCB_API_SECRET then encode to Base64 string

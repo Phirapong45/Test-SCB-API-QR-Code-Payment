@@ -1,0 +1,6 @@
+curl -X POST "https://api-sandbox.partners.scb/partners/sandbox/v1/oauth/token" ^
+  -H "Content-Type: application/json" ^
+  -H "Authorization: Basic [your Authorization]" ^
+  -H "requestUId: your-request-uid" ^
+  -H "resourceOwnerId: your-resource-owner-id" ^
+  -d "{\"applicationKey\":\"[your SCB_API_KEY]\",\"applicationSecret\":\"[your SCB_API_SECRET]\"}"
